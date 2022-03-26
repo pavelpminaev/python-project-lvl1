@@ -4,7 +4,6 @@ jobs:
         my-job:
                 runs-on: macos-latest
                 steps: 
-                        - name: make lint
-                          run:
-                                pip install poetry
+                        - name: make-lint
+                          run:  pip install poetry
                                 make lint
