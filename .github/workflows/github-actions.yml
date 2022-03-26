@@ -1,9 +1,10 @@
-name: github-actions
+name: githab-actions
 on: push
 jobs:
-  my-job:
-    runs-on: macos-latest
-    steps:
-      - name: my-step
-        run: pip install poetry
-             make lint
+        my-job:
+                runs-on: macos-latest
+                steps: 
+                        - name: make lint
+                          run:
+                                pip install poetry
+                                make lint
