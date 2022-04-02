@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 import prompt
 import random
 
@@ -26,6 +27,7 @@ def main():
             print(answer + ' is wrong answer ;(. Correct answer was ' + true_answer)
             print("Let's try again, {0}!".format(user_name))
     print('Congratulations, {0}!'.format(user_name))
+
 
 if __name__ == '__main__':
     main()
