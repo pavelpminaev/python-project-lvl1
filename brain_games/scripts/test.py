@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 """Script of brain_even_game."""
 
-from brain_games import engene
-from brain_games.games import game_even
+from brain_games import game_even
 
-from games.game_even import game_rule, answer_generator
 
 def main():
     engene.engene(game_even)
