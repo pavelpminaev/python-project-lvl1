@@ -1,14 +1,13 @@
 """Docstr for you."""
 
 import prompt
-import brain_games.games.even
 
 
 def start(game):
-    """Game Brain even."""
+    """Start any Brain  Game."""
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(user_name))
+    print(f'Hello, {user_name}!')
     print(game.game_rule)
     index = 0
     while index <= 2:
@@ -18,9 +17,9 @@ def start(game):
             print('Correct!')
             index = index + 1
         else:
-            print(player_answer + ' is wrong answer ;(. Correct answer was ' + correct_answer)
-            print("Let's try again, {0}!".format(user_name))
-    print('Congratulations, {0}!'.format(user_name))
-
-
-start(brain_games.games.even)
+            print(
+                f"'{player_answer}' is wrong answer ;(."
+                f" Correct answer was '{correct_answer}'.\n"
+                f"Let's try again, {user_name}!"
+            )
+    print(f'Congratulations, {user_name}!')
