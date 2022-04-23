@@ -1,7 +1,6 @@
 """Docstr for you."""
 
 import prompt
-import brain_games.games.even
 
 
 def start(game):
@@ -21,6 +20,3 @@ def start(game):
             print(player_answer + ' is wrong answer ;(. Correct answer was ' + correct_answer)
             print("Let's try again, {0}!".format(user_name))
     print('Congratulations, {0}!'.format(user_name))
-
-
-start(brain_games.games.even)
