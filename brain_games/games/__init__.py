@@ -1,2 +1,0 @@
-def even():
-    return None

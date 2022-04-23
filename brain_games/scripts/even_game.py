@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Script of brain_even_game."""
 
-from brain_games import engene, games
+import brain_games.games.even
+from brain_games.engene import start
 
 
 def main():
-    engene.start(games.even)
+    start(brain_games.games.even)
 
 
 if __name__ == '__main__':
