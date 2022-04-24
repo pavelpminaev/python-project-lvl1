@@ -1,4 +1,4 @@
-"""Welcome module, for import to brain_game.py."""
+"""Welcome module, for import to brain_games.py."""
 import prompt
 
 
