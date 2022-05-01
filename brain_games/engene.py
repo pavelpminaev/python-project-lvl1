@@ -1,5 +1,5 @@
 """Docstr for you."""
-
+from brain_games.games import calc
 import prompt
 
 

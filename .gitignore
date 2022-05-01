@@ -1,2 +1,10 @@
+#...
 .venv/
+#cache files
+*.pyc
+#module for manual tests
+brain_games/test_scripts.py
+#...
+dist/
+
 
