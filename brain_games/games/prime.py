@@ -1,5 +1,9 @@
-from random import randint
+"""
+Module contains game_rule, generate question
+and correct answer of brain_prime game.
+"""
 
+from random import randint
 
 game_rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -8,8 +12,8 @@ def answer_generator():
     """Function ask question and return correct_answer"""
 
     number = randint(0, 100)
-    print(f'Question: {number}')
 
+    print(f'Question: {number}')
     if number < 2:
         return 'no'
     divider = 2

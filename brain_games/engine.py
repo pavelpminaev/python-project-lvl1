@@ -1,9 +1,11 @@
-"""Engine for brain games."""
+"""Engine of "brain games" games."""
+
 import prompt
 
 
 def start(game):
-    """Start any Brain  Game."""
+    """Start any game."""
+
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
