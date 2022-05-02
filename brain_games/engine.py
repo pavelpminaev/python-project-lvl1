@@ -1,5 +1,4 @@
-"""Docstr for you."""
-from brain_games.games import calc
+"""Engine for brain games."""
 import prompt
 
 

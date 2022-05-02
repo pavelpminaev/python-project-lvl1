@@ -2,7 +2,7 @@
 """Script of brain_even_game."""
 
 from brain_games.games import even
-from brain_games.engene import start
+from brain_games.engine import start
 
 
 def main():
