@@ -23,5 +23,6 @@ def start(game):
                 f" Correct answer was '{correct_answer}'.\n"
                 f"Let's try again, {user_name}!"
             )
-            return
-    print(f'Congratulations, {user_name}!')
+            break
+    if index == 3:
+        print(f'Congratulations, {user_name}!')
