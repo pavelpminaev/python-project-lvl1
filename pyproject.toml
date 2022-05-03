@@ -1,8 +1,17 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Study project. Set of five console games."
 authors = ["pavelpminaev <pavelpminaev@gmail.com>"]
+classifiers = [
+  "Programming Language :: Python :: 3.9",
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "License :: Freeware",
+  "Natural Language :: English",
+  "Operating System :: MacOS",
+  "Topic :: Games/Entertainment"
+]
 packages = [
   { include = "brain_games" },
 ]
