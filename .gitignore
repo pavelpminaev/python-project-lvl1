@@ -1,4 +1,4 @@
-#...
+.idea/
 .venv/
 #cache files
 *.pyc
@@ -6,5 +6,5 @@
 brain_games/test_scripts.py
 #...
 dist/
-
+.DS_Store
 __pycache__
