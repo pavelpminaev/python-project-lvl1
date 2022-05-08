@@ -1,11 +1,11 @@
 """
-Module contains game_rule, generate question
+Module contains GAME_RULE, generate question
 and correct answer of brain_progression game.
 """
 
 from random import randint
 
-game_rule = 'What number is missing in the progression?'
+GAME_RULE = 'What number is missing in the progression?'
 
 
 def progression_maker():

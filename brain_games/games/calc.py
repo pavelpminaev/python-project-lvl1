@@ -1,12 +1,12 @@
 """
-Module contains game_rule, generate question
+Module contains GAME_RULE, generate question
 and correct answer of brain_calc game.
 """
 
 from operator import add, sub, mul
 from random import randint, choice
 
-game_rule = 'What is the result of the expression?'
+GAME_RULE = 'What is the result of the expression?'
 
 
 def answer_generator():

@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/pavelpminaev/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/pavelpminaev/python-project-lvl1/actions)
 
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+<a href="https://codeclimate.com/github/pavelpminaev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/77afecb9ec83c0774e68/maintainability" /></a>
 
 [![git actions](https://github.com/pavelpminaev/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/pavelpminaev/python-project-lvl1/actions/workflows/github-actions.yml)
 
@@ -15,16 +15,16 @@
 Определение простого числа.
 
 Brain-even
-<a href="https://asciinema.org/a/NoKlfF19y62pZnuaPZqtlmJpp" target="_blank"><img src="https://asciinema.org/a/NoKlfF19y62pZnuaPZqtlmJpp.svg" /></a>
+[![asciicast](https://asciinema.org/a/NoKlfF19y62pZnuaPZqtlmJpp.svg)](https://asciinema.org/a/NoKlfF19y62pZnuaPZqtlmJpp)
 
 Brain-calc
-<a href="https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2" target="_blank"><img src="https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2.svg" /></a>
+[![asciicast](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2.svg)](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2)
 
 Brain-gcd
-<a href="https://asciinema.org/a/0f2ee0bj89gdOuIlWX4tmK5N1" target="_blank"><img src="https://asciinema.org/a/0f2ee0bj89gdOuIlWX4tmK5N1.svg" /></a>
+[![asciicast](https://asciinema.org/a/0f2ee0bj89gdOuIlWX4tmK5N1.svg)](https://asciinema.org/a/0f2ee0bj89gdOuIlWX4tmK5N1)
 
 Brain-progression
-<a href="https://asciinema.org/a/WayISgGg3shU67imq02EhHyRU" target="_blank"><img src="https://asciinema.org/a/WayISgGg3shU67imq02EhHyRU.svg" /></a>
+[![asciicast](https://asciinema.org/a/WayISgGg3shU67imq02EhHyRU.svg)](https://asciinema.org/a/WayISgGg3shU67imq02EhHyRU)
 
 Brain-prime
-<a href="https://asciinema.org/a/2zu1ylUNWduUH6kizagxiiUpM" target="_blank"><img src="https://asciinema.org/a/2zu1ylUNWduUH6kizagxiiUpM.svg" /></a>
+[![asciicast](https://asciinema.org/a/2zu1ylUNWduUH6kizagxiiUpM.svg)](https://asciinema.org/a/2zu1ylUNWduUH6kizagxiiUpM)

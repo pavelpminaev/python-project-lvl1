@@ -1,11 +1,11 @@
 """
-Module contains game_rule, generate question
+Module contains GAME_RULE, generate question
 and correct answer of brain_prime game.
 """
 
 from random import randint
 
-game_rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def answer_generator():

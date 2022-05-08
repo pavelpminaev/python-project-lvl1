@@ -1,11 +1,11 @@
 """
-Module contains game_rule, generate question
+Module contains GAME_RULE, generate question
 and correct answer of brain_even game.
 """
 
 from random import randint
 
-game_rule = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def answer_generator():

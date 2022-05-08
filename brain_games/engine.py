@@ -9,7 +9,7 @@ def start(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    print(game.game_rule)
+    print(game.GAME_RULE)
     index = 0
     while index <= 2:
         correct_answer = game.answer_generator()

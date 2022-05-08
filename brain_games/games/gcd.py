@@ -1,12 +1,12 @@
 """
-Module contains game_rule, generate question
+Module contains GAME_RULE, generate question
 and correct answer of brain_gcd game.
 """
 
 from math import gcd
 from random import randint
 
-game_rule = 'Find the greatest common divisor of given numbers.'
+GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def answer_generator():
