@@ -24,13 +24,6 @@ Wrong answers end the game and offer to play it again.
 ---
 
 ```bash
-mvn clean install
-```
-```
-mvn clean install
-```
-
-```bash
 brain-even
 ```
 ![even](.asc/even.gif)
@@ -40,13 +33,17 @@ brain-calc
 ```
 ![calc](.asc/calc.gif)
 
-```
+```bash
 brain-gcd
 ```
 ![gcd](.asc/gcd.gif)
 
-```brain-progression```
+```bash
+brain-progression
+```
 ![progression](.asc/progression.gif)
 
-```brain-prime```
+```bash
+brain-prime
+```
 ![prime](.asc/prime.gif)
