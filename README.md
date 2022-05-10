@@ -31,6 +31,10 @@ Wrong answers end the game and offer to play it again.
 
 ![brain-even](https://github.com/pavelpminaev/python-project-lvl1/blob/main/asciinema/brain-even.gif)
 
+###```brain-even3```
+
+![brain-even](https://asciinema.org/a/2zu1ylUNWduUH6kizagxiiUpM)
+
 ###```brain-calc```
 [![asciicast](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2.svg)](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2)
 
