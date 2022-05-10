@@ -25,11 +25,11 @@ Wrong answers end the game and offer to play it again.
 ---
 ###```brain-even```
 
-![brain-even](asciinema/brain-even.gif)
+[![brain-even](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2.svg)](asciinema/brain-even.gif)
 
 ###```brain-even2```
 
-![brain-even](https://github.com/pavelpminaev/python-project-lvl1/blob/main/asciinema/brain-even.gif)
+[![brain-even](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2.svg)](https://github.com/pavelpminaev/python-project-lvl1/blob/main/asciinema/brain-even.gif)
 
 ###```brain-even3```
 
