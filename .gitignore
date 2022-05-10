@@ -8,3 +8,4 @@ brain_games/test_scripts.py
 dist/
 .DS_Store
 __pycache__
+*.cast
