@@ -24,7 +24,12 @@ Wrong answers end the game and offer to play it again.
 
 ---
 ###```brain-even```
-[![asciicast](https://asciinema.org/a/491935.svg)](https://asciinema.org/a/491935)
+
+![brain-even](asciinema/brain-even.gif)
+
+###```brain-even2```
+
+![brain-even](https://github.com/pavelpminaev/python-project-lvl1/blob/main/asciinema/brain-even.gif)
 
 ###```brain-calc```
 [![asciicast](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2.svg)](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2)
