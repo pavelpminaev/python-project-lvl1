@@ -3,6 +3,7 @@ name = "hexlet-code"
 version = "0.1.0"
 description = "Study project. Set of five console games."
 authors = ["pavelpminaev <pavelpminaev@gmail.com>"]
+repository = "https://github.com/pavelpminaev/python-project-lvl1.git"
 classifiers = [
   "Programming Language :: Python :: 3.9",
   "Development Status :: 3 - Alpha",

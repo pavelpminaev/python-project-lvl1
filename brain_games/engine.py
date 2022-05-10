@@ -2,6 +2,7 @@
 
 import prompt
 
+COUNT_OF_ROUNDS = 3
 
 def start(game):
     """Start any game."""
@@ -10,13 +11,13 @@ def start(game):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
     print(game.GAME_RULE)
-    index = 0
-    while index <= 2:
+
+    while COUNT_OF_ROUNDS >= 3:
         correct_answer = game.answer_generator()
         player_answer = prompt.string('Your answer: ')
         if correct_answer == player_answer:
             print('Correct!')
-            index += 1
+            COUNT_OF_ROUNDS -= 1
         else:
             print(
                 f"'{player_answer}' is wrong answer ;(."
