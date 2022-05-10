@@ -25,7 +25,7 @@ Wrong answers end the game and offer to play it again.
 ---
 ###```brain-even```
 
-[![brain-even](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2.svg)](asciinema/brain-even.gif)
+![brain-even](asciinema/brain-even.cast)
 
 ###```brain-even2```
 
