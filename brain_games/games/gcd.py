@@ -15,6 +15,7 @@ def answer_generator():
     first_randint = randint(1, 100)
     second_randint = randint(1, 100)
 
+    question = f'Question: {first_randint} {second_randint}'
     correct_answer = gcd(first_randint, second_randint)
-    print(f'Question: {first_randint} {second_randint}')
-    return str(correct_answer)
+
+    return question, correct_answer

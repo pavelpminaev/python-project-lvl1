@@ -4,32 +4,37 @@ and correct answer of brain_progression game.
 """
 
 from random import randint
+from copy import copy
 
 GAME_RULE = 'What number is missing in the progression?'
 
 
-def progression_maker():
-    """Function make and return random arithmetic progression"""
+def generate_progression(
+                        count_num_progression,
+                        first_num_progression,
+                        diff_num_progression
+                        ):
+    """Function make and return arithmetic progression"""
 
     progression = []
-    count_num_in_progression = 10
-    first_num_in_progression = randint(1, 100)
-    diff_progress = randint(1, 10)
 
-    for i in range(0, count_num_in_progression):
-        progression.append(first_num_in_progression)
-        first_num_in_progression += diff_progress
+    for _ in range(0, count_num_progression):
+        progression.append(first_num_progression)
+        first_num_progression += diff_num_progression
     return progression
 
 
-def answer_generator():
-    """Function ask question and return correct_answer"""
+def generate_question_answer():
+    """"Function generate question and correct_answer"""
 
-    progression = progression_maker()
+    progression = generate_progression(10, randint(1, 100), randint(1, 10))
     index_for_del = randint(0, 9)
 
+    question = copy(progression)
+    question[index_for_del] = '..'
+    question = str(question).strip('[]').replace(",", '').replace("'", '')
+
+    question = f'Question: {question}'
     correct_answer = progression[index_for_del]
-    progression[index_for_del] = '..'
-    clean_list = str(progression).strip('[]').replace(",", '').replace("'", '')
-    print('Question: ' + str(clean_list))
-    return str(correct_answer)
+
+    return question, str(correct_answer)

@@ -13,6 +13,7 @@ def answer_generator():
 
     random_num = randint(1, 100)
 
-    print('Question: ' + str(random_num))
+    question = 'Question: ' + str(random_num)
     correct_answer = 'yes' if random_num % 2 == 0 else 'no'
-    return correct_answer
+
+    return question, correct_answer

@@ -9,8 +9,8 @@ from random import randint, choice
 GAME_RULE = 'What is the result of the expression?'
 
 
-def answer_generator():
-    """Function ask question and return correct_answer"""
+def generate_question_answer():
+    """Function generate question and correct_answer"""
 
     dict_operators = {
         '+': add,
@@ -21,6 +21,7 @@ def answer_generator():
     second_randint = randint(1, 10)
     operator = choice(list(dict_operators.keys()))
 
-    print(f'Question: {first_randint} {operator} {second_randint}')
+    question = f'Question: {first_randint} {operator} {second_randint}'
     correct_answer = dict_operators[operator](first_randint, second_randint)
-    return str(correct_answer)
+
+    return question, str(correct_answer)
