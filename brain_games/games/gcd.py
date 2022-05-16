@@ -18,4 +18,4 @@ def generate_question_answer():
     question = f'Question: {first_randint} {second_randint}'
     correct_answer = gcd(first_randint, second_randint)
 
-    return question, correct_answer
+    return question, str(correct_answer)
