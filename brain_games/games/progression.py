@@ -9,11 +9,9 @@ from copy import copy
 GAME_RULE = 'What number is missing in the progression?'
 
 
-def generate_progression(
-                        count_num_progression,
-                        first_num_progression,
-                        diff_num_progression
-                        ):
+def generate_progression(count_num_progression,
+                         first_num_progression,
+                         diff_num_progression):
     """Function make and return arithmetic progression"""
 
     progression = []
