@@ -27,22 +27,3 @@ def start(game):
             )
             return
     print(f'Congratulations, {user_name}!')
-
-
-"""
-    while COUNT_OF_ROUNDS >= 3:
-        correct_answer = game.answer_generator()
-        player_answer = prompt.string('Your answer: ')
-        if correct_answer == player_answer:
-            print('Correct!')
-            COUNT_OF_ROUNDS -= 1
-        else:
-            print(
-                f"'{player_answer}' is wrong answer ;(."
-                f" Correct answer was '{correct_answer}'.\n"
-                f"Let's try again, {user_name}!"
-            )
-            break
-    if index == 3:
-        print(f'Congratulations, {user_name}!')
-"""
