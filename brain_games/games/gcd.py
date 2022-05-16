@@ -9,8 +9,8 @@ from random import randint
 GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
-def answer_generator():
-    """Function ask question and return correct_answer"""
+def generate_question_answer():
+    """Function generate question and correct_answer"""
 
     first_randint = randint(1, 100)
     second_randint = randint(1, 100)

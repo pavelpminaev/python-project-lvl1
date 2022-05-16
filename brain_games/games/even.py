@@ -8,8 +8,8 @@ from random import randint
 GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def answer_generator():
-    """Function ask question and return correct_answer"""
+def generate_question_answer():
+    """Function generate question and correct_answer"""
 
     random_num = randint(1, 100)
 

@@ -25,7 +25,7 @@ def generate_progression(
 
 
 def generate_question_answer():
-    """"Function generate question and correct_answer"""
+    """Function generate question and correct_answer"""
 
     progression = generate_progression(10, randint(1, 100), randint(1, 10))
     index_for_del = randint(0, 9)
