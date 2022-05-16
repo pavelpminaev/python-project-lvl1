@@ -11,9 +11,9 @@ def start(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
+    print(game.GAME_RULE)
 
     for _ in range(ROUNDS_COUNT):
-        print(game.GAME_RULE)
         question, correct_answer = game.generate_question_answer()
         print(question)
         player_answer = prompt.string('Your answer: ')
