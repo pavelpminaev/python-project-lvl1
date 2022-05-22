@@ -26,24 +26,24 @@ Wrong answers end the game and offer to play it again.
 ```bash
 brain-even
 ```
-![even](.asc/even.gif)
+[![asciicast](https://asciinema.org/a/491935.svg)](https://asciinema.org/a/491935)
 
 ```bash
 brain-calc
 ```
-![calc](.asc/calc.gif)
+[![asciicast](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2.svg)](https://asciinema.org/a/bnBAQfBlUTuP5LsBqe3J3sQx2)
 
 ```bash
 brain-gcd
 ```
-![gcd](.asc/gcd.gif)
+[![asciicast](https://asciinema.org/a/0f2ee0bj89gdOuIlWX4tmK5N1.svg)](https://asciinema.org/a/0f2ee0bj89gdOuIlWX4tmK5N1)
 
 ```bash
 brain-progression
 ```
-![progression](.asc/progression.gif)
+[![asciicast](https://asciinema.org/a/WayISgGg3shU67imq02EhHyRU.svg)](https://asciinema.org/a/WayISgGg3shU67imq02EhHyRU)
 
 ```bash
 brain-prime
 ```
-![prime](.asc/prime.gif)
+[![asciicast](https://asciinema.org/a/2zu1ylUNWduUH6kizagxiiUpM.svg)](https://asciinema.org/a/2zu1ylUNWduUH6kizagxiiUpM)
