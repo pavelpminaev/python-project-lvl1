@@ -13,7 +13,7 @@ def generate_question_answer():
 
     random_num = randint(1, 100)
 
-    question = 'Question: ' + str(random_num)
+    question = str(random_num)
     correct_answer = 'yes' if random_num % 2 == 0 else 'no'
 
     return question, correct_answer

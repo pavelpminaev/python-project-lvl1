@@ -20,7 +20,7 @@ def generate_question_answer():
     first_num = randint(1, 100)
     second_num = randint(1, 100)
 
-    question = f'Question: {first_num} {second_num}'
+    question = f'{first_num} {second_num}'
     correct_answer = gcd(first_num, second_num)
 
     return question, str(correct_answer)

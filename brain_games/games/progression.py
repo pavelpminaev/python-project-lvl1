@@ -30,9 +30,8 @@ def generate_question_answer():
 
     question = copy(progression)
     question[index_for_del] = '..'
-    question = str(question).strip('[]').replace(",", '').replace("'", '')
 
-    question = f'Question: {question}'
+    question = str(question).strip('[]').replace(",", '').replace("'", '')
     correct_answer = progression[index_for_del]
 
     return question, str(correct_answer)

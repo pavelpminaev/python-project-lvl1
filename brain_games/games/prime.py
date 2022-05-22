@@ -32,6 +32,6 @@ def generate_question_answer():
     else:
         correct_answer = 'no'
 
-    question = f'Question: {number}'
+    question = str(number)
 
     return question, correct_answer

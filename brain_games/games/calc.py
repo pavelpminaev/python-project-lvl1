@@ -21,7 +21,7 @@ def generate_question_answer():
     second_randint = randint(1, 10)
     operator = choice(list(dict_operators.keys()))
 
-    question = f'Question: {first_randint} {operator} {second_randint}'
+    question = f'{first_randint} {operator} {second_randint}'
     correct_answer = dict_operators[operator](first_randint, second_randint)
 
     return question, str(correct_answer)
